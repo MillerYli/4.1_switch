@@ -24,11 +24,17 @@ namespace mynamespase
 
                     Console.WriteLine("Your color is green!");
                     break;
-                default:
-                Console.BackgroundColor = ConsoleColor.Cyan;
-                Console.ForegroundColor = ConsoleColor.Black;
+                case "cyan":
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = ConsoleColor.Black;
 
-                Console.WriteLine("Your color is cyan!");
+                    Console.WriteLine("Your color is cyan!");
+                    break;
+                default:
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Red;
+
+                Console.WriteLine("This is your super color!");
                     break;
             }
         }
