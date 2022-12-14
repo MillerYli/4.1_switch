@@ -8,9 +8,9 @@ namespace mynamespase
         {
             Console.WriteLine("Введите свой любимый цвет на английском, с маленькой буквы");
 
-            var color = Console.ReadLine();
+            //var color = Console.ReadLine();
 
-            switch (color)
+            switch (Console.ReadLine())
             {
                 case "red":
                     Console.BackgroundColor = ConsoleColor.Red;
